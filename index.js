@@ -28,6 +28,7 @@ app.use(
   cors({
     credentials: true,
     origin: "https://social-midia-app-frontend.onrender.com",
+    // origin: "http://localhost:3000",
   })
 );
 
